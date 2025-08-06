@@ -17,6 +17,17 @@ def save_vector_store(store, save_path=DEFAULT_SAVE_PATH):
     store.save_local(save_path)
 
 def load_vector_store(save_path=DEFAULT_SAVE_PATH):
-    """Load a FAISS vector store from local storage."""
+    """Load a FAISS vector store from local storage, or create if missing."""
     embeddings = get_embedding_model()
-    return FAISS.load_local(save_path, embeddings, allow_dangerous_deserialization=True)
+
+    try:
+        # Try loading existing index
+        return FAISS.load_local(save_path, embeddings, allow_dangerous_deserialization=True)
+    except Exception as e:
+        print(f"⚠️ Could not load vector store: {e}")
+        print("🔄 Rebuilding FAISS index from datasets...")
+
+        # Rebuild from datasets
+        store = create_vector_store(internal_path="data/internal", external_path="data/external")
+        save_vector_store(store, save_path)
+        return store
