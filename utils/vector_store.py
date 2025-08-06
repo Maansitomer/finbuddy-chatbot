@@ -1,22 +1,40 @@
 import os
 from langchain_community.vectorstores import FAISS
 from models.embeddings import get_embedding_model
-from utils.data_loader import load_all_datasets
+from utils.data_loader import load_all_datasets  # Your function to load data
 
-DEFAULT_SAVE_PATH = "vectorstore/faiss_store"
+def load_vector_store():
+    """
+    Loads the FAISS vector store if available, otherwise builds it from datasets.
+    Works both locally and on Streamlit Cloud.
+    """
+    try:
+        embeddings = get_embedding_model()
 
-def create_vector_store(internal_path, external_path):
-    """Create a FAISS vector store from Document objects."""
-    docs = load_all_datasets(internal_path, external_path)
-    embeddings = get_embedding_model()
-    return FAISS.from_documents(docs, embeddings)
+        # Path to FAISS store (relative to project structure)
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        faiss_path = os.path.normpath(os.path.join(base_dir, "../vectorstore/faiss_store"))
 
-def save_vector_store(store, save_path=DEFAULT_SAVE_PATH):
-    """Save the FAISS vector store locally."""
-    os.makedirs(os.path.dirname(save_path), exist_ok=True)
-    store.save_local(save_path)
+        # Check if FAISS store exists
+        if os.path.exists(os.path.join(faiss_path, "index.faiss")) and \
+           os.path.exists(os.path.join(faiss_path, "index.pkl")):
+            print(f"✅ Loading FAISS store from: {faiss_path}")
+            return FAISS.load_local(faiss_path, embeddings, allow_dangerous_deserialization=True)
 
-def load_vector_store(save_path=DEFAULT_SAVE_PATH):
-    """Load a FAISS vector store from local storage."""
-    embeddings = get_embedding_model()
-    return FAISS.load_local(save_path, embeddings, allow_dangerous_deserialization=True)
+        # If not found, rebuild from datasets
+        print("⚠️ FAISS store not found — rebuilding from datasets...")
+        texts = load_all_datasets()
+        db = FAISS.from_texts(texts, embeddings)
+
+        # Create folder if it doesn't exist
+        os.makedirs(faiss_path, exist_ok=True)
+
+        # Save for future use
+        db.save_local(faiss_path)
+        print(f"✅ FAISS store created and saved to: {faiss_path}")
+
+        return db
+
+    except Exception as e:
+        print(f"❌ Could not load or build vector store: {e}")
+        return None
