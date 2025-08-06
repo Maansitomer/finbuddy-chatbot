@@ -19,8 +19,7 @@ import pandas as pd
 from langchain.chains import ConversationalRetrievalChain
 from langchain_google_genai import ChatGoogleGenerativeAI
 from utils.vector_store import load_vector_store
-from duckduckgo_search import DDGS
-
+from ddgs import DDGS
 
 
 # ---- CONFIG ----
