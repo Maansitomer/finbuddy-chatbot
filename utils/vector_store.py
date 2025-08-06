@@ -28,6 +28,6 @@ def load_vector_store(save_path=DEFAULT_SAVE_PATH):
         print("🔄 Rebuilding FAISS index from datasets...")
 
         # Rebuild from datasets
-        store = create_vector_store(internal_path="data/internal", external_path="data/external")
+        store = create_vector_store(internal_path="data/internal_docs", external_path="data/external_docs")
         save_vector_store(store, save_path)
         return store
