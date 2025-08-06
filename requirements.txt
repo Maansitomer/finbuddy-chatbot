@@ -9,8 +9,7 @@ langchain-google-genai>=0.0.6
 langchain-community==0.2.11
 
 # Search
-duckduckgo-search==5.3.0
-
+duckduckgo_search==3.8.5
 
 # Other dependencies
 python-dotenv==1.0.1
