@@ -1,0 +1,119 @@
+Product: Personal Loan
+Region: Bangalore
+Last Quarter Average Interest Rate: 13%
+Offer History: 12.8% in Tier-1 cities during festival season last year, 13.2% in Tier-2 cities.
+USP: Fast approval within 24 hours.
+
+Product: Personal Loan
+Region: Delhi
+Last Quarter Average Interest Rate: 12.7%
+Offer History: 12.5% during Republic Day offer, 13.0% in Q3 2024.
+USP: No prepayment charges after 6 months.
+
+Product: Personal Loan
+Region: Mumbai
+Last Quarter Average Interest Rate: 12.9%
+Offer History: 12.6% in festive Q4 2024, 13.1% in Q1 2025.
+USP: Low processing fee.
+
+Product: Personal Loan
+Region: Hyderabad
+Last Quarter Average Interest Rate: 13.1%
+Offer History: 13.0% for IT sector employees, 13.4% for others.
+USP: Special rate for software engineers.
+
+Product: Personal Loan
+Region: Chennai
+Last Quarter Average Interest Rate: 12.6%
+Offer History: 12.4% during Pongal 2025, 12.8% standard.
+USP: Quick approval within 48 hours.
+
+Product: Home Loan
+Region: Mumbai
+Last Quarter Average Interest Rate: 8.2%
+Offer History: 8.5% fixed during Diwali 2024, 7.9% promotional offer for government employees.
+USP: Low processing fee and doorstep document collection.
+
+Product: Home Loan
+Region: Bangalore
+Last Quarter Average Interest Rate: 8.4%
+Offer History: 8.3% during festive season 2024, 8.1% repo-linked special offer in Jan 2025.
+USP: Flexible repayment options.
+
+Product: Home Loan
+Region: Delhi
+Last Quarter Average Interest Rate: 8.5%
+Offer History: 8.4% during Q1 2025, 8.6% in summer season.
+USP: EMI holiday option for first 3 months.
+
+Product: Home Loan
+Region: Pune
+Last Quarter Average Interest Rate: 8.3%
+Offer History: 8.2% for IT professionals, 8.4% standard.
+USP: Special offer for women borrowers.
+
+Product: Home Loan
+Region: Hyderabad
+Last Quarter Average Interest Rate: 8.6%
+Offer History: 8.5% during MSME week, 8.7% regular.
+USP: Instant eligibility check online.
+
+Product: Business Loan
+Region: Hyderabad
+Last Quarter Average Interest Rate: 14.5%
+Offer History: 14.2% for manufacturing SMEs during MSME Week, 14.8% average otherwise.
+USP: Collateral-free loans up to ₹50 lakh.
+
+Product: Business Loan
+Region: Bangalore
+Last Quarter Average Interest Rate: 14.3%
+Offer History: 14.0% for tech startups, 14.5% standard.
+USP: Fast-track approval for startups.
+
+Product: Business Loan
+Region: Delhi
+Last Quarter Average Interest Rate: 14.7%
+Offer History: 14.5% during trade fair season, 14.9% standard.
+USP: Partnership offers with local trade bodies.
+
+Product: Business Loan
+Region: Mumbai
+Last Quarter Average Interest Rate: 14.6%
+Offer History: 14.4% during monsoon season, 14.8% otherwise.
+USP: Lower rates for exporters.
+
+Product: Business Loan
+Region: Chennai
+Last Quarter Average Interest Rate: 14.4%
+Offer History: 14.2% for textile SMEs, 14.5% for others.
+USP: Focused textile sector packages.
+
+Product: Education Loan
+Region: Chennai
+Last Quarter Average Interest Rate: 10.9%
+Offer History: 10.5% for top-tier universities abroad, 11.2% average for domestic studies.
+USP: 6-month moratorium after course completion.
+
+Product: Education Loan
+Region: Delhi
+Last Quarter Average Interest Rate: 10.8%
+Offer History: 10.6% for government scholarship holders, 11.0% standard.
+USP: No collateral for loans under ₹7.5 lakh.
+
+Product: Education Loan
+Region: Bangalore
+Last Quarter Average Interest Rate: 10.7%
+Offer History: 10.4% for STEM courses abroad, 10.9% domestic.
+USP: Partnership with top coaching institutes.
+
+Product: Education Loan
+Region: Mumbai
+Last Quarter Average Interest Rate: 10.6%
+Offer History: 10.3% for MBA abroad, 10.8% domestic.
+USP: Career counseling support.
+
+Product: Education Loan
+Region: Hyderabad
+Last Quarter Average Interest Rate: 10.9%
+Offer History: 10.7% for engineering abroad, 11.1% domestic.
+USP: Extended repayment for low-income families.

@@ -1,0 +1,16 @@
+Banks: Union Bank of India, Bank of Baroda, Canara Bank
+
+Product: Home Loan
+Union Bank of India – 7.35% onwards
+Bank of Baroda – 8.15% onwards
+Canara Bank – 7.45% onwards
+
+Product: Business Loan
+Union Bank of India – 13.2% onwards
+Bank of Baroda – 13.5% onwards
+Canara Bank – 13.4% onwards
+
+Product: Education Loan
+Union Bank of India – 8.9% onwards
+Bank of Baroda – 9.1% onwards
+Canara Bank – 9.0% onwards

@@ -1,0 +1,21 @@
+Bank: ICICI Bank
+Product: Personal Loan
+Interest Rate Range: 10.85% – 16.65% p.a. (June/May 2025)
+Approx. Offer Rate: ~10.85% for prime customers
+Processing Time: 72 hours
+
+Bank: ICICI Bank
+Product: Home Loan
+Interest Rate Range: 8.60% – 9.40% p.a. (July 2025)
+Processing Time: 7 days
+
+Bank: ICICI Bank
+Product: Business Loan
+Interest Rate Range: 14.2% – 17.0% p.a.
+Processing Time: 5–8 days
+Collateral: Required for loans above ₹35 lakh
+
+Bank: ICICI Bank
+Product: Education Loan
+Interest Rate Range: 9.5% – 12.5% p.a.
+Moratorium: Course duration + 6 months

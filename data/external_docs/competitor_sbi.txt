@@ -1,0 +1,21 @@
+Bank: State Bank of India
+Product: Personal Loan
+Interest Rate Range: 10.30% – 15.30% p.a. (mid‑2025)
+Processing Time: 48 hours
+
+Bank: State Bank of India
+Product: Home Loan
+Interest Rate Range: 8.30% – 9.05% p.a. (July 2025)
+Reduced MCLR to 7.95–8.90% from July 15 2025
+Processing Time: 6 days
+
+Bank: State Bank of India
+Product: Business Loan
+Interest Rate Range: 13.5% – 15.8% p.a.
+Processing Time: 4–6 days
+Collateral: Required above ₹50 lakh
+
+Bank: State Bank of India
+Product: Education Loan
+Interest Rate Range: 9.0% – 12.2% p.a.
+Special Offer: Lower rate for girl students

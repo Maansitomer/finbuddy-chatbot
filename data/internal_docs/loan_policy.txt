@@ -1,0 +1,25 @@
+Product: Personal Loan
+Eligibility: Minimum salary ₹25,000/month, age 21–58.
+Loan Tenure: 12–60 months.
+RBI Compliance: Max 14% interest rate for this category.
+Processing Fee: 1.5% of loan amount.
+Prepayment: Allowed after 6 months without penalty.
+
+Product: Home Loan
+Eligibility: Salaried or self-employed, minimum monthly income ₹35,000, age 23–65.
+Loan Tenure: 5–30 years.
+RBI Compliance: Rates must be linked to repo rate; fair lending practices mandatory.
+Processing Fee: 0.5% of loan amount.
+Prepayment: Allowed anytime without penalty for floating rates.
+
+Product: Business Loan
+Eligibility: Registered business with minimum 3 years operation, turnover > ₹30 lakh/year.
+Loan Tenure: 12–60 months.
+Collateral: Not required up to ₹50 lakh.
+RBI Compliance: SME priority lending norms apply.
+
+Product: Education Loan
+Eligibility: Confirmed admission in recognized institutions in India or abroad.
+Loan Tenure: Course duration + 5–7 years repayment.
+Collateral: Required for loans above ₹7.5 lakh.
+Moratorium: Course duration + 6 months.

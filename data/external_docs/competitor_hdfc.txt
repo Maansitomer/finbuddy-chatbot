@@ -1,0 +1,21 @@
+Bank: HDFC Bank
+Product: Personal Loan
+Interest Rate Range: 10.90% – 24.00% p.a. (latest as of April/May 2025)
+Current Offer Rate: approx. 10.90% for high-credit-profile borrowers in August 2025
+Processing Time: 48 hours
+
+Bank: HDFC Bank
+Product: Home Loan
+Interest Rate Range: 8.45% – 9.25% p.a. (July 2025)
+Processing Time: 5 days
+
+Bank: HDFC Bank
+Product: Business Loan
+Interest Rate Range: 13.8% – 16.5% p.a.
+Processing Time: 5–7 days
+Collateral: Required for loans above ₹40 lakh
+
+Bank: HDFC Bank
+Product: Education Loan
+Interest Rate Range: 9.3% – 13.8% p.a.
+Moratorium: Course duration + 6 months
