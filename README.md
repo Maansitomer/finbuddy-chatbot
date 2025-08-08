@@ -1,4 +1,5 @@
-# 🤖 FinBuddy – Your AI Loan Assistant: https://maansitomer-finbuddy-chatbot-streamlit-app-3nqxuo.streamlit.app/
+# 🤖 FinBuddy – Your AI Loan Assistant: 
+https://maansitomer-finbuddy-chatbot-streamlit-app-3nqxuo.streamlit.app/
 
 
 FinBuddy is an intelligent internal chatbot developed for financial institutions to assist employees in answering client queries related to **loans, interest rates, and product comparisons**. This tool helps ensure reliable, real-time responses, improving service efficiency and competitive positioning.
